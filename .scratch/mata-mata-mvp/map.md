@@ -29,11 +29,13 @@ Achados de research ficam num branch `research/<nome>`, com ponteiro no ticket. 
 - [O que acontece quando um combatente morre](issues/06-o-que-acontece-quando-um-combatente-morre.md): a queda tira da luta por 3 segundos e a volta é num ponto de volta, só com a pistola; esses 3 segundos são a única proteção.
 - [Qual é o movimento do combatente](issues/07-qual-e-o-movimento-do-combatente.md): desloca, olha e pula, numa velocidade só; combatente atravessa combatente; o pulo mede o mapa.
 - [Como um tiro resolve](issues/08-como-um-tiro-resolve.md): raios instantâneos; a vida tem oito partes; pistola e shotgun tiram duas, metralhadora uma; perto são três comprimentos de corpo e o meio vai até oito.
+- [Quantos bots entram na partida](issues/09-quantos-bots-entram-na-partida.md): entram sempre 3 bots com o jogador; o teto de 9 continua sendo o quanto o mapa cabe.
+- [O que um bot precisa saber fazer](issues/10-o-que-um-bot-precisa-saber-fazer.md): um só comportamento; linha em volta do corpo; fecha até a melhor arma e segura o disparo; sem linha, busca arma ou segue de ponto em ponto.
+- [Quais telas a sessão tem](issues/12-quais-telas-a-sessao-tem.md): abertura, luta e resultado; Esc no meio volta à abertura; jogar de novo começa outra partida na hora.
 
 ## Not yet specified
 
 - O que a tela mostra da munição, se a arma gastar tiros. Depende de [A arma gasta munição](issues/16-a-arma-gasta-municao.md).
-- Se o bot tem mais de um nível de dificuldade. Depende do que o bot precisa saber fazer.
 - Qual feedback sonoro mínimo a spec exige. Trilha, dublagem e polish já estão fora; o que resta é o som que o combate precisa para ser legível.
 - Se a spec precisa de um nome de jogo, distinto do modo mata-mata e do nome da pasta.
 

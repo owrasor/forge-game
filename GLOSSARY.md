@@ -12,6 +12,10 @@ _Avoid_: Arena, deathmatch, todos contra todos
 Uma sessão de mata-mata, do início até o fim.
 _Avoid_: Match, sala, jogo
 
+**Abertura**:
+A tela em que a sessão espera o jogador iniciar uma partida.
+_Avoid_: Menu, título, lobby
+
 **Combatente**:
 Quem luta numa partida. É um jogador ou um bot.
 _Avoid_: Jogador (quando inclui bots), entidade, pawn
@@ -23,6 +27,10 @@ _Avoid_: User, player, cliente
 **Bot**:
 Combatente controlado pelo jogo.
 _Avoid_: NPC, IA, inimigo
+
+**Linha**:
+O espaço livre entre o bot e o corpo de outro combatente.
+_Avoid_: Visão, campo de visão
 
 **Mapa**:
 O único espaço onde a partida acontece. Cabe até 10 combatentes.
